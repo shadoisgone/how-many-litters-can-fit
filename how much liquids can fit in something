@@ -1,0 +1,15 @@
+h = input("hieght of your object in mm")
+w = input("with of your object in mm")
+d = input("depth of your object in mm")
+h = int(h)
+w = int(w)
+d = int(d)
+mh = h/1000.
+mw = w/1000.
+md = d/1000.
+mh = float(mh)
+mw = float(mw)
+md = float(md)
+cubem = mh * mw * md
+litters = cubem * 1000
+print (litters )
